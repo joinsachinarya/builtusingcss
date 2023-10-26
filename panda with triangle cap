@@ -1,0 +1,89 @@
+<style>
+  body { 
+  background: #000; 
+}
+.container{
+  position:relative;
+}
+
+.cap{
+   position:absolute;
+   top:0px;
+   width:0px;
+   height:0px;
+   border-bottom:100px solid  #f3c178;
+   border-right:120px solid  transparent;
+   border-left:120px solid transparent;
+  
+}
+
+.face{
+   position:relative;
+   left:20px;
+   background:#f3c178;
+   width:200px;
+   height:180px;
+   top:40px;
+   border-radius:100%;
+}
+
+.eye1{
+   position:absolute;
+   background:#0b0500;
+   left:30px;
+   top:60px;
+   width:40px;
+   height:35px;
+   border-radius:100%;
+}
+
+.eye2{
+   position:absolute;
+   background:#0b0500;
+   left:130px;
+   top:60px;
+   width:40px;
+   height:35px;
+   border-radius:100%;
+}
+
+.O{
+   position:absolute;
+   background:#0b0500;
+   left:75px;
+   top:120px;
+   width:50px;
+   height:35px;
+   border-radius:100%;
+}
+/* .eyeball1{
+  position:absolute;
+  width:18px;
+  height:15px;
+  left:10px;
+  top:16px;
+  border-radius:100%;
+  background:white;
+}
+.eyeball2{
+  position:absolute;
+  width:18px;
+  height:15px;
+  left:10px;
+  top:16px;
+  border-radius:100%;
+  background:white;
+} */
+</style>
+<div class="container">
+   <div class="cap"></div>
+   <div class="face">
+      <div class="eye1">
+<!--         <div class="eyeball1"></div> -->
+      </div>
+      <div class="eye2">
+<!--         <div class="eyeball2"></div> -->
+      </div>
+      <div class="O"></div>
+   </div>
+</div>
